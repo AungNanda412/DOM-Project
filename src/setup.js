@@ -1,4 +1,4 @@
-import { BellRing, createIcons, Menu, Minus, Moon, Plus, RefreshCcw, Search, Sun, Tag, User } from "lucide";
+import { BellRing, createIcons, Menu, Minus, Moon, Plus, RefreshCcw, Search, Sun, Tag, User, X } from "lucide";
 import { themeToggleDarkIcon, themeToggleLightIcon } from "./selecters";
 
 const setup = () => {
@@ -18,7 +18,8 @@ const iconSetup = () => {
         Search,
         Plus,
         Tag,
-        Minus
+        Minus,
+        X
     },
     });
 };
